@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/nishanth1596/typemaster-keyboard-landing-page)
-- Live Site URL: [Live site URL](https://nishanth-typemaster-keyboard-landing-page.netlify.app/)
+- Live Site URL: [Live site URL](https://nishanth-typemaster-keyboard-landing.netlify.app/)
 
 ### Features
 
