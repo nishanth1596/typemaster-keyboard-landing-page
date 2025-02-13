@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-F16718: #f16718;
+  --color-FF9B62: #ff9b62;
+  --color-162542: #162542;
+  --color-7B8BAD: #7b8bad;
+  --color-E8EFF2: #e8eff2;
+  --color-FFFFFF: #ffffff;
+
+  --font-Barlow: "Barlow", "serif";
+
+  --breakpoint-1440p: 90rem;
+}
+
+@layer components {
+  .overLay::after {
+    content: "";
+    position: absolute;
+    background-color: #f16718;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+  }
+
+  @media (min-width: 1280px) {
+    .decorativeImage {
+      height: 255px;
+      width: 220px;
+      background-color: var(--color-E8EFF2);
+      border-radius: 20px;
+    }
+  }
+}
